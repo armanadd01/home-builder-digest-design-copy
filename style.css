@@ -1,9 +1,14 @@
 .banner {
     background-image: url(images/44461315-0-Group-4.png);
-            max-width: 100%;
+    max-width: 100%;
 }
 
 .banner-content{
     height: 51.1875rem;
 
+}
+
+.get-quote-section {
+    background-image: url(images/44461315-0-Group-4.png);
+    max-width: 100%;
 }
