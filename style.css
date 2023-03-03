@@ -1,9 +1,13 @@
 body {
     font-family: 'Montserrat', sans-serif;
 }
-.section-block, .container {
+.section-block  {
     max-width: 960px !important;
     margin: auto;
+}
+
+.heaader {
+    height: 4.5625rem;
 }
 
 .heaader .navbar-nav .nav-item {
@@ -134,4 +138,17 @@ body {
 .footer-bottom {
     background: rgb(30, 30, 30);
         height: 5.625rem;
+}
+
+@media all and (max-width: 1100px) {
+    .heaader {
+        height: auto;
+    }
+
+}
+@media all and (max-width: 767px) {
+    .heaader {
+        height: auto;
+    }
+    
 }
