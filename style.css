@@ -1,3 +1,11 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+.section-block, .container {
+    max-width: 960px !important;
+    margin: auto;
+}
+
 .banner {
     background-image: url(images/44461315-0-Group-4.png);
     max-width: 100%;
@@ -7,8 +15,66 @@
     height: 51.1875rem;
 
 }
+.second-section .section-block .row {
+    height: 18.4375rem;
+    max-width: 60rem;
+}
+
+.second-section .qoute {
+    height: 7.125rem;
+    width: 33.75rem;
+    
+}
+.second-section-text {
+    font-family: 'Lora', serif;
+    font-weight: 400;
+    color: #000000;
+    font-size: 1.62rem;
+    line-height: 2.4rem;
+}
 
 .get-quote-section {
     background-image: url(images/44461315-0-Group-4.png);
     max-width: 100%;
+}
+
+.get-quote-section-content {
+    height: 19.75rem;
+}
+
+.custom-btn-info {
+    background: #437B73;
+        color: #FFFFFF;
+        font-size: 1.0526rem;
+        font-family: Montserrat;
+        font-weight: 400;
+        height: 3.125rem;
+        width: 14.875rem;
+        border-radius: 3px;
+
+}
+
+.custom-btn-info:hover {
+    background: #2F4945;
+    color: #FFFFFF;
+}
+
+.top-location-content-box {
+        height: 10.625rem;
+        width: 13.6875rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: rgb(12, 12, 12) !important;
+        opacity: 0.55;
+}
+
+.footer-top {
+        height: 23.125rem;
+        background: rgb(35, 35, 35);
+}
+
+.footer-bottom {
+    background: rgb(30, 30, 30);
+        height: 5.625rem;
 }
