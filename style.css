@@ -6,15 +6,33 @@ body {
     margin: auto;
 }
 
+.heaader .navbar-nav .nav-item {
+    font-size: 0.743rem;
+} 
+
 .banner {
     background-image: url(images/44461315-0-Group-4.png);
     max-width: 100%;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .banner-content{
     height: 51.1875rem;
 
 }
+
+.banner-text-centent .entry-heading {
+    font-family: 'Lora', serif;
+    font-weight: 400;
+    font-size: 1.362rem;
+    line-height: 1.925rem;
+}
+
+
+
+
 .second-section .section-block .row {
     height: 18.4375rem;
     max-width: 60rem;
@@ -34,12 +52,24 @@ body {
 }
 
 .get-quote-section {
-    background-image: url(images/44461315-0-Group-4.png);
+    background: url(images/44461510-0-Group-2.webp) ;
     max-width: 100%;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .get-quote-section-content {
-    height: 19.75rem;
+    height: 15.75rem;
+}
+
+.get-quote-section .entry-text {
+    font-family: 'lora' serif;
+    font-family: 'Lora', serif;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 1.62rem;
+    line-height: 2.4rem;
 }
 
 .custom-btn-info {
@@ -59,6 +89,15 @@ body {
     color: #FFFFFF;
 }
 
+.best-of-content-box .entry-text {
+    font-family: 'Lora', serif;
+    font-weight: 500;
+    font-size: 2.1672rem;
+    line-height: 3.5rem;
+}
+
+
+
 .top-location-content-box {
         height: 10.625rem;
         width: 13.6875rem;
@@ -68,6 +107,24 @@ body {
         background: rgb(12, 12, 12) !important;
         opacity: 0.55;
 }
+
+.top-location-section .entry-text{
+    font-family: 'Lora', serif;
+    font-weight: 600;
+    font-size: 1.48rem;
+    line-height: 2.1rem;
+}
+
+.entry-small-text {
+    font-weight: 400;
+    font-size: 0.643rem;
+}
+
+.custom-fs-small {
+    font-weight: 400;
+    font-size: 0.943rem;
+}
+
 
 .footer-top {
         height: 23.125rem;
