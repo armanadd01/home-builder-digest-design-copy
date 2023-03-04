@@ -1,9 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 body {
     font-family: 'Montserrat', sans-serif;
 }
 .section-block  {
     max-width: 960px !important;
-    margin: auto;
+
 }
 
 .heaader {
@@ -93,6 +97,10 @@ body {
     color: #FFFFFF;
 }
 
+.best-of-content-box {
+    background-color: #4A4A4A;
+}
+
 .best-of-content-box .entry-text {
     font-family: 'Lora', serif;
     font-weight: 500;
@@ -147,8 +155,96 @@ body {
 
 }
 @media all and (max-width: 767px) {
+    .section-block {
+            max-width: 324px !important;
+    
+        }
+
     .heaader {
         height: auto;
     }
+
+    .banner-content {
+        height: 41.1875rem;
+        flex-direction: column;
+        justify-content: space-evenly;
+        
+    }
+    .banner-text-centent {
+        width: 20.8125rem;
+    }
+
+    .banner-text-centent .entry-heading {
+        font-size: 1.2384rem;
+        line-height: 1.75rem;
+        
+    }
+
+    .second-section {
+        height: 13.125rem;
+        padding: 0 40px;
+    }
+    .second-section .section-block .row {
+        height: 13.125rem;
+        max-width: auto;
+    }
+
+    .second-section .second-section-text {
+        font-size: 1.1rem;
+        line-height: 1.525rem;
+    }
+
+    .get-quote-section .entry-text {
+        font-size: 1.4241rem;
+        line-height: 1.7538rem;
+    }
+
+    .get-quote-section  {
+        height: 18.125rem;
+    }
+
+    .get-quote-section-content {
+        height: auto;
+    }
+
+    .main-info-bottom-inner-column {
+        height: 24.5625rem;
+    }
     
+    .main-info-bottom .content-area .img-area {
+        height: 15.6774rem;
+    }
+    .main-info-bottom img {
+        height: 100% !important;
+    }
+    .main-info-bottom-inner-column .text-area {
+        margin: auto !important;
+        padding: 10px 0 !important;
+        padding-right: 45px !important;
+    }
+    .main-info-bottom-inner-column .text-area .entry-small-text {
+        font-size: 0.6192rem;
+        margin: auto;
+    }
+
+    .main-info-bottom-inner-column .text-area .entry-text {
+        line-height: 1.5rem;
+        font-size: 0.9288rem;
+        margin: auto;
+    }
+
+    .best-of-content-box {
+        height: 14.5rem;
+        padding: 0 50px;
+    }
+
+    .best-of-content-box .entry-text {
+        line-height: 2.1875rem;
+        font-size: 1.248rem;
+    }
+
+    .top-location-content-box {
+        background-color: #606060;
+    }
+
 }
